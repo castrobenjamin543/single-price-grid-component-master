@@ -1,0 +1,188 @@
+:root {
+  /*  Primary Colors */
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --cyan2: hsl(183, 65%, 45%);
+  
+  /*  Neutral Colors */
+  --light-ray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  background-color: #eee;
+}
+
+.wraper {
+  
+  margin: 0 auto;
+  display: block;
+}
+
+.primero {
+  background-color: #fff;
+}
+
+.primero-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.primero-primero {
+  color: var(--cyan);
+  
+}
+
+.primero-segundo {
+  color: var(--bright-yellow);
+  font-size: 1.3em;
+  
+}
+
+.primero-tercero {
+  color: var(--grayish-blue);
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+.segundo {
+  background-color: var(--cyan);
+}
+
+.segundo-primero {
+  color: #fff;
+  font-weight: 400;
+}
+
+.segundo-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.segundo-segundo-completo {
+  display: flex;
+  align-items: center;
+}
+
+.segundo-segundo {
+  color: #fff;
+  font-size: 1.9em;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.segundo-tercero {
+  color: #fff;
+}
+
+.segundo-cuarto {
+  color: #fff;
+}
+
+.segundo-quinto {
+  width: 100%;
+  background-color: var(--bright-yellow);
+  color: #fff;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: .9em;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+
+.tercero {
+  width: 100%;
+  background-color: var(--cyan2);
+}
+
+.tercero-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.tercero-primero {
+  color: #fff;
+}
+
+.tercero-list {
+  color: #fff;
+  margin: 3px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: block;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 375px){
+ 
+body {
+    /*background-color: red;*/
+}
+
+.wraper {
+  width: 100%;
+}
+
+
+
+
+
+.segundo {
+  width: 100%;
+}
+
+
+
+
+
+
+
+.tercero {
+  width: 100%;
+}
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 760px){
+ 
+    body {
+         /*background-color: purple;*/
+    }
+
+    .wraper {
+        display: flex;
+        flex-flow: row wrap;
+        width: 60%;
+    }
+
+    .segundo {
+        width: 50%;
+    }
+
+    .tercero {
+        width: 50%;
+    }
+
+
+}
+
+
+
